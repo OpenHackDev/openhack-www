@@ -11,7 +11,7 @@ export default function() {
             <div className="absolute h-[calc(100vh-52px)] w-full p-2 flex grow flex-1">
                 <BorderedContainer className="w-full flex flex-col items-center justify-center">
                     <h1 className="text-3xl"><b>Coming soon</b></h1>
-                    <hr className="bg-oh-blue w-100 h-1 mx-auto my-4 border-0 md:my-5"/>
+                    <hr className="bg-oh-blue w-100 max-w-[calc(100%-50px)] h-1 mx-auto my-4 border-0 md:my-5"/>
                     <div className="pt-2">
                         <div className="flex flex-1 flex-row gap-2">
                             <a rel="stylesheet" href="mailto:hello@openhack.dev?subject=Register%20for%20OpenHack" className="
