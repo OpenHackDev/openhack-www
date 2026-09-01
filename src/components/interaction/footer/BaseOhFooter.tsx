@@ -29,15 +29,21 @@ export function BaseOhFooter({ className = "" }: { className?: string }) {
           <ColumnLayout>
             <span className="font-bold mb-1">Notices</span>
             <a
-              href="/notices/gdpr"
+              href="/legal/gdpr"
               className="text-sm text-gray-700 hover:underline"
             >
               GDPR
             </a>
+            <a
+              href="/legal/privacy"
+              className="text-sm text-gray-700 hover:underline"
+            >
+              Privacy
+            </a>
           </ColumnLayout>
           <ColumnLayout>
             <span className="font-bold mb-1">Contact</span>
-            <span className="text-sm text-gray-700">[email]</span>
+            <a href="mailto:hello@openhack.dev" className="text-sm text-gray-700">hello@openhack.dev</a>
           </ColumnLayout>
         </RowLayout>
       </RowLayout>
