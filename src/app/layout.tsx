@@ -14,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="manifest" href="/manifest.json" />
+      {/* <link rel="manifest" href="/manifest.json" /> */}
       <body className="min-h-screen flex flex-col">
         <div className="flex-1 flex flex-col">{children}</div>
         <BaseOhFooter />

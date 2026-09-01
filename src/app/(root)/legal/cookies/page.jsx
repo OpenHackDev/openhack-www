@@ -1,5 +1,5 @@
 import { MarkdownDocument } from "@/components/documentation/MarkdownDocument";
-import cookies from './cookies.md'
+import cookies from '@/app/(root)/legal/cookies/cookies.md'
 
 export const metadata = {
     title: "Cookie Notice - OpenHack"

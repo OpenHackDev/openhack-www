@@ -29,6 +29,6 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"
-,     "src/foundation/puzzle/puzzle.tjs", "public/manifest.json"  ],
+,     "src/foundation/puzzle/puzzle.tjs", "public/manifest.json", "src/app/(root)/legal/cookies/page.jsx", "src/app/(root)/legal/gdpr/page.jsx", "src/app/(root)/legal/privacy/page.jsx", "src/app/(root)/legal/tos/page.jsx"  ],
   "exclude": ["node_modules"]
 }
