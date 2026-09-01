@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+@theme {
+  --color-oh-green: #00D965;
+  --color-oh-yellow: #F1C40F;
+  --color-oh-blue: #247BA0;
+  --color-oh-red: #BA2D0B;
+
+  --color-oh-green-light: #32ff91;
+  --color-oh-yellow-light: #f9e79f;
+  --color-oh-blue-light: #5dade2;
+  --color-oh-red-light: #ff7f50;
+}
+
+body {
+  font-family: "Fira Code", monospace;
+}
+
+.oh-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  background: black;
+  height: 4px;
+  border-radius: 0;
+}
+
+.oh-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border: 3px solid black;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 1);
+  cursor: pointer;
+}
+
+.oh-slider::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  background: white;
+  border: 3px solid black;
+  box-shadow: 1px 1px 0px 0px rgba(0, 0, 0, 1);
+  cursor: pointer;
+  border-radius: 0;
+}
+
+@keyframes oh-square-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(10px);
+  }
+  35% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+
+li {
+  margin-bottom: 0.5rem;
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.Toastify__toast {
+  border: 3px solid black;
+}
+
+.simplebar-scrollbar:before {
+  border-radius: 0 !important;
+  border: 3px solid black !important;
+  background-color: gray !important;
+}
+.simplebar-track.simplebar-horizontal {
+  height: 14px !important;
+}

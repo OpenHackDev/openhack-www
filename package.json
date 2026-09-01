@@ -1,0 +1,33 @@
+{
+  "name": "openhack-website",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Open source hackathon for educational institutions",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "devDependencies": {
+    "@svgr/webpack": "^8.1.0",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^26.3.0",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/react-syntax-highlighter": "^15.5.13"
+  },
+  "dependencies": {
+    "eslint": "^10",
+    "eslint-config-next": "16.3.3",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^16.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^7.0.2"
+  }
+}

@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /
+Allow: /auth/login
+Allow: /auth/register
+Allow: /auth/reset-password
+
+Sitemap: https://www.openhack.dev/sitemap.xml
+
+# Please play nice
