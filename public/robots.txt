@@ -1,6 +1,5 @@
 User-agent: *
-Disallow: /
-Allow: /
+Allow: /$
 Allow: /legal
 Allow: /legal/tos
 Allow: /legal/gdpr
@@ -8,6 +7,7 @@ Allow: /legal/cookies
 Allow: /legal/privacy
 Allow: /documentation
 Allow: /sitemap.xml
+Disallow: /
 
 Sitemap: https://www.openhack.dev/sitemap.xml
 
