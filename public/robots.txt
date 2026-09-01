@@ -1,8 +1,13 @@
 User-agent: *
 Disallow: /
-Allow: /auth/login
-Allow: /auth/register
-Allow: /auth/reset-password
+Allow: /
+Allow: /legal
+Allow: /legal/tos
+Allow: /legal/gdpr
+Allow: /legal/cookies
+Allow: /legal/privacy
+Allow: /documenation
+Allow: /sitemap.xml
 
 Sitemap: https://www.openhack.dev/sitemap.xml
 

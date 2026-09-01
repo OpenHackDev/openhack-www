@@ -1,1 +1,1 @@
-Contact: [Security Email]@openhack.dev
+Contact: security@openhack.dev
