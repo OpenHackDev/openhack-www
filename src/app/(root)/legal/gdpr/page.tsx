@@ -1,6 +1,10 @@
 import { MarkdownDocument } from "@/components/documentation/MarkdownDocument";
 import GDPR from './GDPR.md'
 
+export const metadata = {
+    title: "GDPR Notice - OpenHack"
+}
+
 export default function() {
     return (
         <div className="p-2 pl-4 pr-4">

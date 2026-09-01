@@ -7,7 +7,7 @@ export function BaseOhFooter({ className = "" }: { className?: string }) {
     <div
       className={`flex flex-col items-stretch justify-start min-h-50 bg-gray-200 border-t-4 border-black text-2xl text-gray-800 p-2 bottom-0 relative w-full ${className}`}
     >
-      <RowLayout className="justify-center gap-20">
+      <RowLayout className="justify-center gap-20 whitespace-nowrap">
         <div className="flex items-center min-w-35">
           <div className="w-16 h-16 border-6 mr-2 text-base">
             <Terminal className="w-12 h-12 text-gray-800" />
@@ -27,18 +27,18 @@ export function BaseOhFooter({ className = "" }: { className?: string }) {
             </a>
           </ColumnLayout>
           <ColumnLayout>
-            <span className="font-bold mb-1">Notices</span>
-            <a
-              href="/legal/gdpr"
-              className="text-sm text-gray-700 hover:underline"
-            >
+            <span className="font-bold mb-1"><a href="/legal">Legal</a></span>
+            <a href="/legal/tos" className="text-sm text-gray-700 hover:underline">
+              Terms Of Service
+            </a>
+            <a href="/legal/gdpr" className="text-sm text-gray-700 hover:underline">
               GDPR
             </a>
-            <a
-              href="/legal/privacy"
-              className="text-sm text-gray-700 hover:underline"
-            >
+            <a href="/legal/privacy" className="text-sm text-gray-700 hover:underline">
               Privacy
+            </a>
+            <a href="/legal/cookies" className="text-sm text-gray-700 hover:underline">
+              Cookies
             </a>
           </ColumnLayout>
           <ColumnLayout>

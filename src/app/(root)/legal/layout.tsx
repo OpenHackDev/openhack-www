@@ -1,5 +1,9 @@
 import { BaseOhHeader } from "@/components/interaction/header/BaseOhHeader";
 
+export const metadata = {
+    title: "Legal - OpenHack"
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
