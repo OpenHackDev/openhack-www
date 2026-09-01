@@ -6,7 +6,7 @@ Allow: /legal/tos
 Allow: /legal/gdpr
 Allow: /legal/cookies
 Allow: /legal/privacy
-Allow: /documenation
+Allow: /documentation
 Allow: /sitemap.xml
 
 Sitemap: https://www.openhack.dev/sitemap.xml
