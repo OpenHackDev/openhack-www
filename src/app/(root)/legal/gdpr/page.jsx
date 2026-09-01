@@ -17,7 +17,7 @@ export default function() {
                     </i>
                 </div>
             </div>
-            <hr className="bg-oh-blue w-full h-1 mx-auto my-4 bg-neutral-quaternary border-0 rounded-sm md:my-5"/>
+            <hr className="bg-oh-blue w-full h-1 mx-auto my-4 border-0 md:my-5"/>
             <MarkdownDocument content={GDPR} />
         </div>
     )
