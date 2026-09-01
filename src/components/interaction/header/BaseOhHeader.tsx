@@ -61,8 +61,10 @@ function SignOutButton({
 
 export function BaseOhHeader({ className = "" }: { className?: string }) {
   return (
-    <EmptyOhHeader className={className}>
-      <HeaderLink href="https://app.openhack.dev/auth/register">register</HeaderLink>
+    <EmptyOhHeader className={`whitespace-nowrap ${className}`}>
+      <HeaderLink href="/about">about</HeaderLink>
+      <HeaderLink href="/documentation">documentation</HeaderLink>
+      <HeaderLink href="/legal">legal</HeaderLink>
       <HeaderLink href="https://app.openhack.dev/auth/login">login</HeaderLink>
     </EmptyOhHeader>
   );
