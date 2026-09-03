@@ -5,6 +5,15 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "OpenHack",
   description: "Coding made fun again",
+  openGraph: {
+    images: [
+      {
+        url: "/og-image",
+        width: 1200,
+        height: 630
+      }
+    ]
+  }
 };
 
 export default function RootLayout({
